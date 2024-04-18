@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registration form</title>
+</head>
+<body>
+    <h1><u>registration form</u></h1>
+    <form action="" method="get">
+        <label for="firstname" >first name:</label>
+        <input type="text" id="firstname" placeholder="type your first name">
+
+        <label for="middlename" >middle name:</label>
+        <input type="text" id="middlename" placeholder="type your middle name">
+
+        <label for="lastname" >last name:</label>
+        <input type="text" id="lastname" placeholder="type your last name">
+        <br><br>
+        <label>gender:</label>
+        <input type="radio" value="male" name="gender"><label>male</label>
+        <input type="radio" value="female" name="gender"><label>female</label>
+        <br><br>
+        <label for="email" >email:</label>
+        <input type="email" id="email" placeholder="type your email">
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="type your password">
+        <br><br>
+        <label for="phone" >phone:</label>
+        <input type="text" id="phone" placeholder="type your phone number">       
+        <br><br>
+            <label>date of birth:</label> <br>
+            day:<input type="number" min="1" max="31" value="1">
+            month:<input type="number" min="1" max="12" value="1">
+            year:<input type="number" min="1980" max="2024" value="1990"><br><br>
+            <label>city:</label>
+            <select>
+                <option>cairo</option>
+                <option>alexandria</option>
+                <option>luxor</option>
+                <option>aswan</option>
+                <option>hurghada</option>
+            </select><br><br>
+
+        <label>select your favorit hobbies:</label><br>
+        <input type="checkbox"><label>cooking</label><br>
+        <input type="checkbox"><label>reading</label><br>
+        <input type="checkbox"><label>pets</label><br>
+        <input type="checkbox"><label>video gaming</label><br>
+        <input type="checkbox"><label>watching tv</label><br>
+        <input type="checkbox"><label>sports</label><br>
+        <input type="checkbox"><label>fitness</label><br>
+        <input type="checkbox"><label>fine art</label><br>
+        <input type="checkbox"><label>crafting</label><br>
+        <input type="checkbox"><label>music</label><br><br>
+        
+        <label for="file">upload your cv:</label>
+        <input type="file" id="file"><br><br>
+        <label>Message:</label><BR>
+        <textarea rows="5" cols="30" placeholder="you message here"></textarea><br><br>
+        <input type="checkbox" id="read" ><label>i have read the rules</label>
+        <br><br>
+        <input type="submit" value="register">
+        <input type="reset">
+       
+    </form>
+</body>
+</html>
